@@ -3,7 +3,7 @@
  *
  */
 
-#include "CondCore/PluginSystem/interface/registration_macros.h"
+#include "CondCore/ESSources/interface/registration_macros.h"
 #include "CondFormats/CastorObjects/interface/CastorPedestals.h"
 #include "CondFormats/CastorObjects/interface/CastorPedestalWidths.h"
 #include "CondFormats/CastorObjects/interface/CastorGains.h"
@@ -21,7 +21,7 @@
 #include "CondFormats/DataRecord/interface/CastorQIEDataRcd.h"
 
 
-DEFINE_SEAL_MODULE();
+
 REGISTER_PLUGIN(CastorPedestalsRcd,CastorPedestals);
 REGISTER_PLUGIN(CastorPedestalWidthsRcd,CastorPedestalWidths);
 REGISTER_PLUGIN(CastorGainsRcd,CastorGains);
